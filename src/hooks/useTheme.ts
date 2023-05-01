@@ -13,7 +13,7 @@ const _storage = {
 }
 
 export const initTheme = () => {
-  if (!window || !document) return
+  if (typeof window === 'undefined' || typeof document === 'undefined') return
   if (
     _storage.theme === 'dark' ||
     (!_storage.theme &&
