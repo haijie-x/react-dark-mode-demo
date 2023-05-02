@@ -7,6 +7,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.57.1
   '@vitejs/plugin-react': ^4.0.0
   eslint: ^8.38.0
+  eslint-config-prettier: ^8.8.0
   eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-react-refresh: ^0.3.4
   postcss: ^8.4.23
@@ -29,6 +30,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.59.1_eslint@8.39.0+typescript@5.0.4
   '@vitejs/plugin-react': 4.0.0_vite@4.3.3
   eslint: 8.39.0
+  eslint-config-prettier: 8.8.0_eslint@8.39.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.39.0
   eslint-plugin-react-refresh: 0.3.5_eslint@8.39.0
   postcss: 8.4.23
@@ -1041,6 +1043,15 @@ packages:
   /escape-string-regexp/4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /eslint-config-prettier/8.8.0_eslint@8.39.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.39.0
     dev: true
 
   /eslint-plugin-react-hooks/4.6.0_eslint@8.39.0:
